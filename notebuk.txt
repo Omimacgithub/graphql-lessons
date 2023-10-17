@@ -1,0 +1,4 @@
+-Cada vez que se añade un libro / elimina un libro, hay que hacer un refetch de la query getBookDetailsQuery para cada libro.
+-Cuando se elimina un libro, sigue apareciendo el div de los detalles del libro eliminado
+-Cambiar el if de BookDetails:10
+-El mensaje de estado sólo debe aparecer cuando se añade(intenta) un autor.
