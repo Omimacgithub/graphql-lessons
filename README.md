@@ -1,4 +1,4 @@
 # graphql-lessons
 ### Dos ramas:
-- ReactApareamiento
+- ReactApareamiento(master)
 - CRASHCOURSE
