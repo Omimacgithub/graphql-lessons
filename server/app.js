@@ -9,9 +9,8 @@ const app = express();
 // allow cross-origin requests
 app.use(cors());
 
-// connect to mlab database
-// make sure to replace my db string & creds with your own
-const uri = 'mongodb+srv://omarmontenegro:OmmDiaz754@clustermongolia.vgkfymq.mongodb.net/?retryWrites=true&w=majority';
+// connect to local MongoDB (docker: graphql-lessons-mongo)
+const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/books';
 
 //Database
 mongoose.connect(uri);
